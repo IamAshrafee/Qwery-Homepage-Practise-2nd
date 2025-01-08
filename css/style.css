@@ -25,7 +25,15 @@ li {
 
 .wrapper {
     display: flex;
-    align-items: center;
+}
+
+.title-bold {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: #FFC178;
+    text-transform: uppercase;
+    text-align: left;
 }
 
 /* Common Element Styles ends here */
@@ -33,11 +41,11 @@ li {
 
 /* Nav Bar starts here  */
 #navBar {
-    background-color: blue;
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 28px 0px;
+    padding: 30px 0px;
+    position: absolute;
 }
 
 .nav-wrapper {
@@ -69,3 +77,30 @@ li {
 }
 
 /* Nav Bar ends here  */
+
+/* Banner Section starts here */
+#banner {
+    background: url(../images/background-img.jpg) no-repeat center center/cover;
+
+}
+
+.banner-wrapper {
+    padding: 462px 0px;
+    flex-direction: column;
+}
+
+.banner-wrapper h1 {
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+}
+
+.banner-wrapper span {
+    font-weight: 400;
+    font-size: 88px;
+    display: block;
+}
+
+/* Banner Section ends here */ 
