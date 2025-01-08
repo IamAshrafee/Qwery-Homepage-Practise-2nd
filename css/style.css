@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Common Element Styles starts here*/
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* Common Element Styles ends here */
+
+
+/* Nav Bar starts here  */
+#navBar {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 28px 0px;
+}
+
+.nav-wrapper {
+    justify-content: space-between;
+}
+
+.nav-wrapper img {}
+
+.nav-menu {}
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-menu li {
+    margin-left: 60px;
+}
+
+.nav-menu li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s linear;
+}
+
+.nav-menu li a:hover {
+    color: black;
+}
+
+/* Nav Bar ends here  */
